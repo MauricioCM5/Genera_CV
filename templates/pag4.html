@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<form method="POST">
+    <div class="caja" >
+        <div class="titulo">
+            Parte 4 - Selección de Plantillas
+            <hr />
+        </div>
+        
+
+        <div class="form" >
+            <!-- Estudios-->
+            <div class="subtitulo">
+                Plantilla
+            </div>
+            <p>Escoja la plantilla de su elección </p> <br />
+
+            <div class="camp_entrada">
+               <img src="../static/plantilla_1.jpg">
+               <br /><br />
+            </div>
+            <button class="button img_ref" formaction="{{ url_for('plantilla_cv')}}" formethod="post" name="cv1">
+                Plantilla 1
+            </button>
+
+            <br /><br />
+
+            
+            <div class="camp_entrada">
+                <img src="../static/plantilla_2.jpg">
+             </div>
+             <button class="button img_ref" formaction="{{ url_for('plantilla_cv2')}}" formethod="post" name="cv2">
+                Plantilla 2
+            </button>
+
+             <br /><br />
+
+             <div class="camp_entrada">
+                <img src="../static/plantilla_3.jpg">
+                
+             </div>
+             <button class="button img_ref" formaction="{{ url_for('plantilla_cv3')}}" formethod="post" name="cv3">
+                Plantilla 3
+            </button>
+            
+        <br /><br />
+    </div>
+    
+    <br >
+    
+
+
+</form>
+
+{% endblock %}
+
+
+
+    

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+  }
+  .contenido{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    background: #ffffff;
+    margin: 25px 250px;
+    padding: 60px;
+    color: black;
+    box-shadow: 1px 1px 2px rgba(80, 77, 77, 0.125);
+}
+
+.contenido .titulo{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 23px;
+
+    color: #050049;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.contenido .subtitulo{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: #0e0ee0;
+    padding: 16px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+   .contenido .imagen{
+       height: 450px;
+       width: 350px;
+       text-align: center;
+   }
+
+  .barra_nav {
+    background-color: #0769e9;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans';
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .barra_nav .nav .logo {
+    padding: 1px;
+    line-height: 2px;
+    height: 5px;
+    width: 4px;
+  }
+  
+  .pic{
+      padding: 10px;
+      height: 70px;
+      width: 140px;
+  }
+  .nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+  }
+  
+  .nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+  
+  .nav-menu-link {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4ca0af;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background-color: #034574;
+    transition: all 0.5s ease;
+  }
+  
+  .nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+  
+    display: none;
+  }
+
+

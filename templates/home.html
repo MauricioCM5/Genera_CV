@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style_home.css')}}">
+</head>
+
+<body>
+    <div class="barra_nav">
+        <nav class="nav">
+            <div>
+                <img src="https://e7.pngegg.com/pngimages/817/219/png-clipart-curriculum-vitae-management-afacere-cornell-university-logo-curriculum-vitae-template-miscellaneous-text.png"
+                class="pic">
+                
+            </div>
+            <ul id="nav-abierto" class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="{{url_for('login')}}" class="nav-menu-link nav-link button">Iniciar Sesión</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="{{url_for('register')}}" class="nav-menu-link nav-link button">Registrarme</a>
+                </li>
+            </ul>
+        </nav>
+    <div>
+
+    <div class="contenido">
+        <div class="titulo">
+            <h1>¡Con este creador de CV usando plantillas lograrás pasar directamente a las entrevistas!</h1>
+        </div>
+        <div class="subtitulo">
+            No tarda más de unos minutos llenando unos formularios con tu información. Puedes escoger entre 
+            distintas plantillas. 
+        </div>
+
+        <div class="imagen">
+            <img src="../static/plantilla_1.jpg">
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+
